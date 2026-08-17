@@ -1,0 +1,14 @@
+{
+  "authority_effect": "NONE",
+  "configuration_ref": "configuration.synthetic.001",
+  "evidence_refs": [
+    "evidence.synthetic.001"
+  ],
+  "operating_disposition_ref": "operating-disposition.synthetic.001",
+  "reference_only": true,
+  "schema_version": "1.0.0",
+  "simulation_use": "FICTIONAL_DECISION_CONTEXT_ONLY",
+  "source_contract": "schemas/operating-disposition.schema.json",
+  "source_repository": "ai-cyber-resilience-framework",
+  "system_ref": "system.synthetic.001"
+}

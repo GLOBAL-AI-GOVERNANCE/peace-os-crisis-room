@@ -1,6 +1,6 @@
 {
   "artifact": "peace-os-crisis-room",
-  "file_count": 154,
+  "file_count": 158,
   "files": [
     {
       "bytes": 180,
@@ -93,9 +93,9 @@
       "sha256": "d1de7f43acc2d618ff86a3d857fae3aec0ff18121e8a9322cb7bd39c631d6972"
     },
     {
-      "bytes": 4040,
+      "bytes": 4465,
       "path": "README.md",
-      "sha256": "a070450245307ec43ac1c99139cecf38fd6799edde6542dabe9d02c0b29eacf4"
+      "sha256": "1debc6d5f3c028c4f69dfed7bf6588a4545f53ca53cf9d311bec5b18ffb7ea2e"
     },
     {
       "bytes": 1149,
@@ -253,6 +253,11 @@
       "sha256": "5e3be057d02a62b13169b53672845394bf8de73a5f76dc05ed8a3a5b7bcbd038"
     },
     {
+      "bytes": 1644,
+      "path": "docs/portfolio-interoperability.md",
+      "sha256": "bce57b4538b7870992196dd6dc8ca2cee25051a2493f8b37421ac652ff86e34a"
+    },
+    {
       "bytes": 938,
       "path": "docs/source-boundary.md",
       "sha256": "8ea2ef9bf1608bc368fbeb37879f0e242e69a216e06a35db6c5f24c6a0ccd61c"
@@ -311,6 +316,11 @@
       "bytes": 907,
       "path": "docs/workshop-guide.md",
       "sha256": "a1fd97c1c0bce4919cc7a09ec8d77e9c098395d6081ac467b6b5439feb4a232d"
+    },
+    {
+      "bytes": 484,
+      "path": "examples/portfolio/operating-disposition-reference.json",
+      "sha256": "dea4601e4532fbbca047e2f58029c28a918a63504e925740f0dea671fd607692"
     },
     {
       "bytes": 1925,
@@ -386,6 +396,11 @@
       "bytes": 3185,
       "path": "schemas/governance-policy.schema.json",
       "sha256": "ef8eef0dca130d9150c036232508b49574b341058806b8ab51f96c90d509e479"
+    },
+    {
+      "bytes": 1344,
+      "path": "schemas/operating-disposition-reference.schema.json",
+      "sha256": "5ad2266b544e65323c28e2275936be2c7a2560ce8403c7a77092bebd2a7a6e72"
     },
     {
       "bytes": 645,
@@ -506,6 +521,11 @@
       "bytes": 3094,
       "path": "tests/test_policy_data_contract.py",
       "sha256": "adb1a9171bbfc05b840c92b7ad002a46dfbcba087af884f6c1dce9f14c7a720a"
+    },
+    {
+      "bytes": 2210,
+      "path": "tests/test_portfolio_interop.py",
+      "sha256": "e01e6d3833aaf6b6fdaea8e4eb27eaff474d79a86de3447c6646f8ddaea55b81"
     },
     {
       "bytes": 2128,
