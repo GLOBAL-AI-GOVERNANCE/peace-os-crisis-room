@@ -1,0 +1,59 @@
+{
+  "$id": "https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room/schemas/operating-disposition-reference.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "authority_effect": {
+      "const": "NONE"
+    },
+    "configuration_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_refs": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "operating_disposition_ref": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "reference_only": {
+      "const": true
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "simulation_use": {
+      "const": "FICTIONAL_DECISION_CONTEXT_ONLY"
+    },
+    "source_contract": {
+      "const": "schemas/operating-disposition.schema.json"
+    },
+    "source_repository": {
+      "const": "ai-cyber-resilience-framework"
+    },
+    "system_ref": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "source_repository",
+    "source_contract",
+    "operating_disposition_ref",
+    "system_ref",
+    "reference_only",
+    "authority_effect",
+    "simulation_use"
+  ],
+  "title": "Peace OS Operating Disposition Reference",
+  "type": "object"
+}

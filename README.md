@@ -47,6 +47,12 @@ Open `http://localhost:8000/`.
 
 The selected scenario and mode remain visible throughout the exercise.
 
+## Portfolio interoperability
+
+Post-RC2 development on `main` adds a reference-only operating-disposition handoff for synthetic portfolio exercises. The browser does not automatically ingest AI Cyber Resilience Framework state, the handoff grants no authority, and it does not alter the published `v0.3.0-rc2` release or stable-release holds.
+
+See [`docs/portfolio-interoperability.md`](docs/portfolio-interoperability.md).
+
 ## Data and recovery
 
 Session state remains in browser-local storage when available. The experience continues in memory-only mode when storage is blocked. Users can resume, start over, or delete saved session data. Downloaded After-Action Review records remain on the user’s device until the user removes them.
