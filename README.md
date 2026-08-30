@@ -83,6 +83,8 @@ python3 tools/run_automated_acceptance.py \
 
 [`VERIFICATION.md`](VERIFICATION.md) separates automated evidence from remaining human, accessibility, Godot, Windows, and operational gates. Passing source checks does not establish those claims.
 
+Use the [Real-World Evaluation Kit](docs/REAL-WORLD-EVALUATION-KIT.md) to conduct and record human UAT, accessibility testing, and pilot evaluation without conflating automated checks with human evidence.
+
 ## Boundaries
 
 Peace OS is the product name. This project is not a computer operating system. It is not an intelligence product, media-authentication tool, emergency-response platform, legal-attribution engine, certification product, or autonomous release authority. It uses fictional scenarios and does not authorize real-world publication or action.

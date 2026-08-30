@@ -1,6 +1,6 @@
 {
   "artifact": "peace-os-crisis-room",
-  "file_count": 158,
+  "file_count": 160,
   "files": [
     {
       "bytes": 180,
@@ -93,9 +93,9 @@
       "sha256": "d1de7f43acc2d618ff86a3d857fae3aec0ff18121e8a9322cb7bd39c631d6972"
     },
     {
-      "bytes": 4465,
+      "bytes": 4671,
       "path": "README.md",
-      "sha256": "1debc6d5f3c028c4f69dfed7bf6588a4545f53ca53cf9d311bec5b18ffb7ea2e"
+      "sha256": "883a1d5b837fcd2a096bab64c39809a21922e98428aecdef25e7964f0ac1a6d0"
     },
     {
       "bytes": 1149,
@@ -171,6 +171,11 @@
       "bytes": 4215,
       "path": "core/scoring/scoring_rubric.json",
       "sha256": "c3ca9242b263621094814a30025f527452e0d4a236284684f3476841aa2b74ea"
+    },
+    {
+      "bytes": 5538,
+      "path": "docs/REAL-WORLD-EVALUATION-KIT.md",
+      "sha256": "f087b23a29bd5b53c30cb53317feaf54217395b76b4aa9b321836af5a37170a1"
     },
     {
       "bytes": 1277,
@@ -546,6 +551,11 @@
       "bytes": 4025,
       "path": "tests/test_rc2_deployment_contract.py",
       "sha256": "8e6179013a94270a7c0d3a45e08b8c2bcdff449a08ced42fa1a835b13c56a7c8"
+    },
+    {
+      "bytes": 817,
+      "path": "tests/test_real_world_evaluation_kit.py",
+      "sha256": "12324e394483b890d25ec03c786474cf7b2df6753a672b5ddf382fdde2197b48"
     },
     {
       "bytes": 3840,
