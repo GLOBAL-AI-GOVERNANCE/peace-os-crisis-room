@@ -1,6 +1,6 @@
 {
   "artifact": "peace-os-crisis-room",
-  "file_count": 160,
+  "file_count": 161,
   "files": [
     {
       "bytes": 180,
@@ -33,9 +33,9 @@
       "sha256": "ae05ddbb16e358d4c5a3f5212c839480b074ceb953e95ae8ac02677f5c699cf7"
     },
     {
-      "bytes": 145,
+      "bytes": 259,
       "path": ".github/dependabot.yml",
-      "sha256": "a23c20301d29bdc0a0e61caa42bfeb3b6e0e3568ab5a7d639e3e6978c8930902"
+      "sha256": "571f7d0740af3cc23874c2e744498dc883556de027904b642d2ec6a1ebacb93d"
     },
     {
       "bytes": 505,
@@ -43,9 +43,9 @@
       "sha256": "8f8cb465f8a764efe42f51cbf66dcc778f982224f114011a6b60037b76e81fe2"
     },
     {
-      "bytes": 1674,
+      "bytes": 1847,
       "path": ".github/workflows/ci.yml",
-      "sha256": "488bd26ea345c3c1f18b70692f85ee42ab0ce7f10bb99473331822aedd636ce6"
+      "sha256": "f9c66528dd0d5bb345b5bfad0ba4d083922c9686d469d5c94461104f3bb04267"
     },
     {
       "bytes": 4655,
@@ -611,6 +611,11 @@
       "bytes": 1014,
       "path": "tools/check_core_parity.py",
       "sha256": "86ea71d8a0078e029d1302fdb397a871f2cc3ce8874b18b9d5dc1bb1f8b276ee"
+    },
+    {
+      "bytes": 4959,
+      "path": "tools/check_history_privacy.py",
+      "sha256": "ac4f6ffa28064e64a48425913f04044b8a1928c10824a406f9ebedcbf2ceff9a"
     },
     {
       "bytes": 2394,
